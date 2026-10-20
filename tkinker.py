@@ -22,4 +22,6 @@ for i in range(10):
     mata_pelajaran = tk.Label(input_frame, text=f"Nilai Mata Pelajaran {i+1}:", font=("Helvetica", 12), bg="#f0f4f8")
     mata_pelajaran.grid(row=i, column=0, sticky="w", pady=5, padx=10)
     
-   
+    entry = tk.Entry(input_frame, width=20)
+    entry.grid(row=i, column=1, pady=5)
+    entries.append(entry)
