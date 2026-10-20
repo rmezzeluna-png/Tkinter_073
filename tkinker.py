@@ -15,3 +15,6 @@ judul.pack(pady=20)
 # Frame untuk input
 input_frame = tk.Frame(root, bg="#f0f4f8")
 input_frame.pack(pady=10)
+
+# Label dan entry untuk 10 nilai pelajaran
+entries = []
