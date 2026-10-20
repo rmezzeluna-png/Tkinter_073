@@ -25,3 +25,7 @@ for i in range(10):
     entry = tk.Entry(input_frame, width=20)
     entry.grid(row=i, column=1, pady=5)
     entries.append(entry)
+
+# Tombol Hasil Prediksi
+prediksi_button = tk.Button(root, text="Hasil Prediksi", command=prediksi_prodi)
+prediksi_button.pack(pady=20)
