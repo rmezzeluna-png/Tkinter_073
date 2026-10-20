@@ -19,3 +19,7 @@ input_frame.pack(pady=10)
 # Label dan entry untuk 10 nilai pelajaran
 entries = []
 for i in range(10):
+    mata_pelajaran = tk.Label(input_frame, text=f"Nilai Mata Pelajaran {i+1}:", font=("Helvetica", 12), bg="#f0f4f8")
+    mata_pelajaran.grid(row=i, column=0, sticky="w", pady=5, padx=10)
+    
+   
