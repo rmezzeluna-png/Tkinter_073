@@ -18,3 +18,4 @@ input_frame.pack(pady=10)
 
 # Label dan entry untuk 10 nilai pelajaran
 entries = []
+for i in range(10):
