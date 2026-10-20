@@ -33,3 +33,6 @@ prediksi_button.pack(pady=20)
 # Label untuk menampilkan hasil prediksi
 hasil_label = tk.Label(root, text="", font=("Helvetica", 14, "italic"), bg="#f0f4f8", fg="blue")
 hasil_label.pack(pady=10)
+
+# Jalankan aplikasi
+root.mainloop()
